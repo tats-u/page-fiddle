@@ -1,0 +1,13 @@
+minimumReleaseAgeExcludePrune: true
+trustPolicy: no-downgrade
+trustPolicyIgnoreAfter: 43200
+trustPolicyExcludePrune: true
+dedupePeers: true
+autoDedupe: true
+saveTypes: true
+
+minimumReleaseAgeExclude:
+  - '@astrojs/markdown-satteri@0.4.2'
+  - astro@7.3.4
+allowBuilds:
+  esbuild: true
