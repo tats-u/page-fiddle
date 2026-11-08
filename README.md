@@ -1,5 +1,7 @@
 # Web Fiddle
 
+https://tats-u.github.io/web-fiddle/
+
 Web Fiddle is a lightweight Astro + SolidJS playground for writing markup and CSS with a fast, sandboxed preview.
 
 ## Features
