@@ -368,7 +368,7 @@ export default function Playground() {
 		<div class="app-shell">
 			<header class="titlebar">
 				<div class="titlebar__identity">
-					<h1>Web Fiddle</h1>
+					<h1>Page Fiddle</h1>
 				</div>
 				<div class="titlebar__actions">
 					<Show when={noticeMessage()}>

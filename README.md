@@ -1,8 +1,8 @@
-# Web Fiddle
+# Page Fiddle
 
-https://tats-u.github.io/web-fiddle/
+https://tats-u.github.io/page-fiddle/
 
-Web Fiddle is a lightweight Astro + SolidJS playground for writing markup and CSS with a fast, sandboxed preview.
+Page Fiddle is a lightweight Astro + SolidJS playground for writing markup and CSS with a fast, sandboxed preview.
 
 ## Features
 

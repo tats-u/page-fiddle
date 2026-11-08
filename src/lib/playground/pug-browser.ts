@@ -48,7 +48,7 @@ function getLoadedPugRenderer() {
 function loadPugBrowserScript() {
 	return new Promise<void>((resolve, reject) => {
 		const existingScript = document.querySelector<HTMLScriptElement>(
-			'script[data-web-fiddle-pug-browser]',
+			'script[data-page-fiddle-pug-browser]',
 		);
 
 		const finalize = () => resolve();
@@ -71,7 +71,7 @@ function loadPugBrowserScript() {
 
 		const script = document.createElement('script');
 		script.async = true;
-		script.dataset.webFiddlePugBrowser = 'true';
+		script.dataset.pageFiddlePugBrowser = 'true';
 		script.dataset.status = 'loading';
 		script.src = pugBrowserScriptUrl;
 		script.addEventListener(
