@@ -27,6 +27,7 @@ jobs:
         uses: pnpm/setup@v3
         with:
           runtime: node
+          version: ^12
 
       - name: Setup Pages
         uses: actions/configure-pages@v6
